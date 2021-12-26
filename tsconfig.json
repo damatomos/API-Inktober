@@ -1,0 +1,14 @@
+{
+	"include": [
+		"./src/"
+	],
+  "compilerOptions": {
+    "target": "es5",
+		"module": "commonjs",
+    "strict": false,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
+  },
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
