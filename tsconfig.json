@@ -3,7 +3,8 @@
 		"./src/"
 	],
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2017",
+		"experimentalDecorators": true,
 		"module": "commonjs",
     "strict": false,
     "esModuleInterop": true,

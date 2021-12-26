@@ -618,6 +618,11 @@
     "@types/mime" "^1"
     "@types/node" "*"
 
+"@types/uuid@8.3.2":
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-8.3.2.tgz#b7077bdfc866dbb39939029774806f24e95be791"
+  integrity sha512-u40ViizKDmdl5FhOXn9WQbulpigYCaiD5hD4KqR3xyQww6l3+0ND+A9TeFla8tFpqvR+UAkJdYb/8jdaQG4/nw==
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -814,11 +819,6 @@ ci-info@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-2.0.0.tgz#67a9e964be31a51e15e5010d58e6f12834002f46"
   integrity sha512-5tK7EtrZ0N+OLFMthtqOj4fI2Jeb88C4CAZPu25LDVUgXJ0A3Js4PMGqrn0JU1W0Mh1/Z8wZzYPxqUrXeBboCQ==
-
-class-transformer@0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/class-transformer/-/class-transformer-0.4.0.tgz#b52144117b423c516afb44cc1c76dbad31c2165b"
-  integrity sha512-ETWD/H2TbWbKEi7m9N4Km5+cw1hNcqJSxlSYhsLsNjQzWWiZIYA1zafxpK9PwVfaZ6AqR5rrjPVUBGESm5tQUA==
 
 cli-boxes@^2.2.1:
   version "2.2.1"
@@ -1185,15 +1185,6 @@ firebase@^9.6.1-2021119184024:
     "@firebase/storage" "0.9.0"
     "@firebase/storage-compat" "0.1.8"
     "@firebase/util" "1.4.2"
-
-fireorm@^0.23.3:
-  version "0.23.3"
-  resolved "https://registry.yarnpkg.com/fireorm/-/fireorm-0.23.3.tgz#b32a303567f9220a40d73bbe7282848b4d62052b"
-  integrity sha512-HQB/WyHZp0Khoxp7AZFpwwbGznVMesuVuRl4QR74UEIN6UZkKUASOFdT+d0Pkif5W2oKQmVdd0mFsJiLxEuCJg==
-  dependencies:
-    class-transformer "0.4.0"
-    pluralize "^8.0.0"
-    ts-object-path "^0.1.2"
 
 forwarded@0.2.0:
   version "0.2.0"
@@ -2011,11 +2002,6 @@ pirates@^4.0.1:
   resolved "https://registry.yarnpkg.com/pirates/-/pirates-4.0.4.tgz#07df81e61028e402735cdd49db701e4885b4e6e6"
   integrity sha512-ZIrVPH+A52Dw84R0L3/VS9Op04PuQ2SEoJL6bkshmiTic/HldyW9Tf7oH5mhJZBK7NmDx27vSMrYEXPXclpDKw==
 
-pluralize@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
-  integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
-
 prepend-http@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
@@ -2157,11 +2143,6 @@ readdirp@~3.6.0:
   integrity sha512-hOS089on8RduqdbhvQ5Z37A0ESjsqz6qnRcffsMU3495FuTdqSm+7bhJ29JvIOsBDEEnan5DPu9t3To9VRlMzA==
   dependencies:
     picomatch "^2.2.1"
-
-reflect-metadata@^0.1.13:
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
-  integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
 
 registry-auth-token@^4.0.0:
   version "4.2.1"
@@ -2470,11 +2451,6 @@ ts-interface-checker@^0.1.9:
   resolved "https://registry.yarnpkg.com/ts-interface-checker/-/ts-interface-checker-0.1.13.tgz#784fd3d679722bc103b1b4b8030bcddb5db2a699"
   integrity sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==
 
-ts-object-path@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/ts-object-path/-/ts-object-path-0.1.2.tgz#7bbfa50a9a3970bcdd7e67470d00fb54ca22a6c7"
-  integrity sha512-YLX9omkbe2spFv7DDo1fC5BiRfMtu/LgYuGSXnuIT5EkhedzCEShT7YrsQV3pjjT7doY2RHfoxJrra16KJlf7w==
-
 tslib@^2.1.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
@@ -2559,7 +2535,7 @@ utils-merge@1.0.1:
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
 
-uuid@^8.0.0:
+uuid@^8.0.0, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
