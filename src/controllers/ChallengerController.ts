@@ -34,7 +34,7 @@ router.get('/', async (req, res) => {
 	const { year } = req.query;
 
 	try {
-		let result = await Challenger.find(year ? { year } : {}).exec();
+		let result = await Challenger.find(year ? { year } : {}).sort('day').exec();
 		let years = [];
 		result.forEach((challenger) => {
 			if (!years.includes(challenger.year)) {
