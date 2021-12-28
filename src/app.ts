@@ -1,5 +1,7 @@
 import express from 'express';
 
+import cors from 'cors';
+
 import './database/connection';
 
 import './controllers/ChallengerController';
@@ -7,6 +9,9 @@ import './controllers/ChallengerController';
 import router from './controllers/ChallengerController';
 
 const app = express();
+
+// Config CORS
+app.use(cors());
 
 // Config Body Parser
 app.use(express.urlencoded({extended: false}));

@@ -1,7 +1,12 @@
-import { initializeApp, cert } from 'firebase-admin/app';
+import mongoose from 'mongoose';
 
-const serviceAccount = require('../../firestore.creds.json');
+async function connect() {
+	try {
+		await mongoose.connect('mongodb+srv://bluejaygm:shimoko123@inktoberapi.2xlkn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
+		console.log('Conectado com sucesso!');
+	} catch (err) {
+		console.log('Erro ao se conectar: ', err);
+	}
+}
 
-initializeApp({
-	credential: cert(serviceAccount)
-});
+connect();
