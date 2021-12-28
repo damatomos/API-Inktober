@@ -5,7 +5,8 @@
 		"main": "app.js",
 		"scripts": {
 				"dev": "nodemon src/app.ts",
-				"build": ""
+				"build": "tsc -p .",
+				"start": "node src/app.js"
 		},
 		"dependencies": {
 				"cors": "^2.8.5",
